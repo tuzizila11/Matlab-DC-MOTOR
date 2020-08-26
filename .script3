@@ -1,0 +1,3 @@
+config load "C:\Users\tuziz\Desktop\STM Projects\Matlab DC MOTOR\motor_extMode.ioc"
+project generate ui
+exit wait

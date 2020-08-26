@@ -1,0 +1,5 @@
+config load "C:\Users\tuziz\Desktop\STM Projects\Matlab DC MOTOR\motor_extMode.ioc"
+project name motor
+project set heapsize 0x200
+config save "C:\Users\tuziz\Desktop\STM Projects\Matlab DC MOTOR\motor_extMode.ioc"
+exit wait
