@@ -241,9 +241,9 @@ void TIM3_ItUpFcn()
 
     motor_B.Divide = ((1.0 / (motor_B.PRESCALER_TIM3 + 1.0)) * (2.0 *
       rtb_NProdOut)) / motor_B.PERIOD_TIM3;
-    motor_B.Add1 = 359.0 - motor_B.Divide;
-    rtb_NProdOut = ((motor_B.Add1 * 0.50) - motor_DW.Filter_DSTATE) * 100.0;
-    rtb_IProdOut = ((motor_B.Add1 * 13.0) + motor_DW.Integrator_DSTATE) +
+    motor_B.Add1 = 455.0 - motor_B.Divide;
+    rtb_NProdOut = ((motor_B.Add1 * 30.0) - motor_DW.Filter_DSTATE) * 100.0;
+    rtb_IProdOut = ((motor_B.Add1 * 2.0) + motor_DW.Integrator_DSTATE) +
       rtb_NProdOut;
     if (rtb_IProdOut > 1000.0) {
       motor_B.Saturation = 1000.0;
@@ -290,7 +290,7 @@ void TIM3_ItUpFcn()
       rtb_ZeroGain = fmod(rtb_IProdOut, 256.0);
     }
 
-    rtb_IProdOut = motor_B.Add1 * 1.0;
+    rtb_IProdOut = motor_B.Add1 * 0.8;
     if (rtb_IProdOut < 0.0) {
       tmp = -1.0;
     } else if (rtb_IProdOut > 0.0) {
