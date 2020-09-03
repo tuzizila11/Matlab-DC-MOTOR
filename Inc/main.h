@@ -60,6 +60,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define PH0_OSC_IN_Pin GPIO_PIN_0
+#define PH0_OSC_IN_GPIO_Port GPIOH
+#define PH1_OSC_OUT_Pin GPIO_PIN_1
+#define PH1_OSC_OUT_GPIO_Port GPIOH
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

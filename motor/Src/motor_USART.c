@@ -7,10 +7,10 @@
  *
  * Code generated for Simulink model :motor.
  *
- * Model version      : 1.123
+ * Model version      : 1.127
  * Simulink Coder version    : 9.3 (R2020a) 18-Nov-2019
  * TLC version       : 9.3 (May 28 2020)
- * C/C++ source code generated on  : Tue Aug 25 20:41:46 2020
+ * C/C++ source code generated on  : Wed Sep  2 01:54:35 2020
  *
  * Target selection: stm32.tlc
  * Embedded hardware selection: STMicroelectronics->STM32 32-bit Cortex-M
@@ -38,6 +38,9 @@
 #include "motor.h"
 #include "motor_USART.h"
 #include "main.h"
+
+/* USART3 Tx polling timeout value. Number of Solver loop. (can be changed)*/
+uint32_t G_USART3_TxPollTimeOut = 10;
 
 /* Number of USART/UART configured for send. */
 uint16_t G_SERIAL_TX_Count = 0;
@@ -134,13 +137,32 @@ void USART3_TX_SendData(struct SERIAL_TxConf* pConf)
     if (pConf->nb2Send <= msgSize) {
       pConf->nbSent = pConf->nb2Send;
 
-      /* USART3 interrupt send mode*/
-      HAL_UART_Transmit_IT(&huart3, pConf->pTx_R, pConf->nb2Send);
+      /* USART3 polling send mode*/
+      HAL_UART_Transmit(&huart3, pConf->pTx_R, pConf->nb2Send,
+                        G_USART3_TxPollTimeOut);
+
+      /* Update info. Always consider data has been sent*/
+      pConf->txStatus = SERIAL_TX_OK;
+      pConf->pTx_R += pConf->nbSent;
+      if (pConf->pTx_R >= pConf->pTx_BuffEnd) {
+        pConf->pTx_R = pConf->pTx_BuffStart;
+      }
+
+      pConf->nb2Send -= pConf->nbSent;
     } else {
       pConf->nbSent = msgSize;
 
-      /* USART3 interrupt send mode*/
-      HAL_UART_Transmit_IT(&huart3, pConf->pTx_R, msgSize);
+      /* USART3 polling send mode*/
+      HAL_UART_Transmit(&huart3, pConf->pTx_R, msgSize, G_USART3_TxPollTimeOut);
+
+      /* Update info. Always consider data has been sent*/
+      pConf->txStatus = SERIAL_TX_OK;
+      pConf->pTx_R += pConf->nbSent;
+      if (pConf->pTx_R >= pConf->pTx_BuffEnd) {
+        pConf->pTx_R = pConf->pTx_BuffStart;
+      }
+
+      pConf->nb2Send -= pConf->nbSent;
     }
   }
 }

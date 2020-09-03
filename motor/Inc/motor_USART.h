@@ -7,10 +7,10 @@
  *
  * Code generated for Simulink model :motor.
  *
- * Model version      : 1.123
+ * Model version      : 1.127
  * Simulink Coder version    : 9.3 (R2020a) 18-Nov-2019
  * TLC version       : 9.3 (May 28 2020)
- * C/C++ source code generated on  : Tue Aug 25 20:41:46 2020
+ * C/C++ source code generated on  : Wed Sep  2 01:54:35 2020
  *
  * Target selection: stm32.tlc
  * Embedded hardware selection: STMicroelectronics->STM32 32-bit Cortex-M
@@ -69,6 +69,9 @@ typedef struct SERIAL_TxConf {
   __IO SERIAL_TxStatusTypeDef txStatus;/*!< Usart send communication status.*/
   __IO uint8_t txLock;                 /*!< lock data access */
 } SERIAL_TxConfTypeDef;
+
+/* USART3 Tx polling timeout value. Number of Solver loop. (can be changed)*/
+extern uint32_t G_USART3_TxPollTimeOut;
 
 /* USART3 HAL handler. */
 extern UART_HandleTypeDef huart3;

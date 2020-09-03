@@ -17,9 +17,9 @@ motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 motor\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
 motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
@@ -40,6 +40,7 @@ motor\main.o: ../motor/Inc/STM32_Config.h
 motor\main.o: ../motor/Inc/rtwtypes.h
 motor\main.o: ../motor/Inc/motor_USART.h
 motor\main.o: ../motor/Inc/motor_External_Functions.h
+motor\main.o: ../motor/Inc/motor_EXTI.h
 motor\main.o: ../motor/Inc/getBuffPtr.h
 motor\main.o: ../motor/Inc/motor_types.h
 motor\main.o: ../motor/Inc/rtGetNaN.h

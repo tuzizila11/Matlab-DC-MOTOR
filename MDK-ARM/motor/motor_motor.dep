@@ -1,10 +1,10 @@
 Dependencies for Project 'motor', Target 'motor': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (startup_stm32f407xx.s)(0x5F45B007)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o motor\startup_stm32f407xx.o --depend motor\startup_stm32f407xx.d)
-F (../Src/main.c)(0x5F45B000)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\main.o --omf_browse motor\main.crf --depend motor\main.d)
-I (../Inc/main.h)(0x5F45AFFF)
+F (startup_stm32f407xx.s)(0x5F4F35A5)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o motor\startup_stm32f407xx.o --depend motor\startup_stm32f407xx.d)
+F (../Src/main.c)(0x5F4F35A2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\main.o --omf_browse motor\main.crf --depend motor\main.d)
+I (../Inc/main.h)(0x5F4F35A2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -19,9 +19,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -34,23 +34,24 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
-I (../motor/Inc/motor.h)(0x5F45AFD2)
+I (../motor/Inc/motor.h)(0x5F4F339E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
-I (../motor/Inc/motor_TIM.h)(0x5F45AFD2)
-I (../motor/Inc/STM32_Config.h)(0x5F45AFD2)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/motor_USART.h)(0x5F45AFD2)
-I (../motor/Inc/motor_External_Functions.h)(0x5F45AFD2)
+I (../motor/Inc/motor_TIM.h)(0x5F4F339E)
+I (../motor/Inc/STM32_Config.h)(0x5F4F339E)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/motor_USART.h)(0x5F4F339E)
+I (../motor/Inc/motor_External_Functions.h)(0x5F4F339E)
+I (../motor/Inc/motor_EXTI.h)(0x5F4F339E)
 I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
-I (../motor/Inc/motor_types.h)(0x5F45AFD2)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
-F (../Src/stm32f4xx_it.c)(0x5F45AFFC)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_it.o --omf_browse motor\stm32f4xx_it.crf --depend motor\stm32f4xx_it.d)
-I (../Inc/main.h)(0x5F45AFFF)
+I (../motor/Inc/motor_types.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
+F (../Src/stm32f4xx_it.c)(0x5F4F35A1)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_it.o --omf_browse motor\stm32f4xx_it.crf --depend motor\stm32f4xx_it.d)
+I (../Inc/main.h)(0x5F4F35A2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -65,9 +66,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -79,11 +80,11 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_it.h)(0x5F45AFFC)
-F (../Src/stm32f4xx_hal_msp.c)(0x5F45AFFD)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_msp.o --omf_browse motor\stm32f4xx_hal_msp.crf --depend motor\stm32f4xx_hal_msp.d)
-I (../Inc/main.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_it.h)(0x5F4F35A1)
+F (../Src/stm32f4xx_hal_msp.c)(0x5F4F35A1)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_msp.o --omf_browse motor\stm32f4xx_hal_msp.crf --depend motor\stm32f4xx_hal_msp.d)
+I (../Inc/main.h)(0x5F4F35A2)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -98,9 +99,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -112,9 +113,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Src/stm32f4xx_hal_timebase_tim.c)(0x5F45AFFE)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_timebase_tim.o --omf_browse motor\stm32f4xx_hal_timebase_tim.crf --depend motor\stm32f4xx_hal_timebase_tim.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_tim.o --omf_browse motor\stm32f4xx_hal_tim.crf --depend motor\stm32f4xx_hal_tim.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -129,9 +130,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -143,9 +144,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_tim.o --omf_browse motor\stm32f4xx_hal_tim.crf --depend motor\stm32f4xx_hal_tim.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_tim_ex.o --omf_browse motor\stm32f4xx_hal_tim_ex.crf --depend motor\stm32f4xx_hal_tim_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -160,9 +161,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -174,9 +175,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_tim_ex.o --omf_browse motor\stm32f4xx_hal_tim_ex.crf --depend motor\stm32f4xx_hal_tim_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_rcc.o --omf_browse motor\stm32f4xx_hal_rcc.crf --depend motor\stm32f4xx_hal_rcc.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -191,9 +192,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -205,9 +206,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_rcc.o --omf_browse motor\stm32f4xx_hal_rcc.crf --depend motor\stm32f4xx_hal_rcc.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_rcc_ex.o --omf_browse motor\stm32f4xx_hal_rcc_ex.crf --depend motor\stm32f4xx_hal_rcc_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -222,9 +223,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -236,9 +237,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_rcc_ex.o --omf_browse motor\stm32f4xx_hal_rcc_ex.crf --depend motor\stm32f4xx_hal_rcc_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash.o --omf_browse motor\stm32f4xx_hal_flash.crf --depend motor\stm32f4xx_hal_flash.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -253,9 +254,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -267,9 +268,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash.o --omf_browse motor\stm32f4xx_hal_flash.crf --depend motor\stm32f4xx_hal_flash.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash_ex.o --omf_browse motor\stm32f4xx_hal_flash_ex.crf --depend motor\stm32f4xx_hal_flash_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -284,9 +285,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -298,9 +299,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash_ex.o --omf_browse motor\stm32f4xx_hal_flash_ex.crf --depend motor\stm32f4xx_hal_flash_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash_ramfunc.o --omf_browse motor\stm32f4xx_hal_flash_ramfunc.crf --depend motor\stm32f4xx_hal_flash_ramfunc.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -315,9 +316,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -329,9 +330,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_flash_ramfunc.o --omf_browse motor\stm32f4xx_hal_flash_ramfunc.crf --depend motor\stm32f4xx_hal_flash_ramfunc.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_gpio.o --omf_browse motor\stm32f4xx_hal_gpio.crf --depend motor\stm32f4xx_hal_gpio.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -346,9 +347,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -360,9 +361,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_gpio.o --omf_browse motor\stm32f4xx_hal_gpio.crf --depend motor\stm32f4xx_hal_gpio.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_dma_ex.o --omf_browse motor\stm32f4xx_hal_dma_ex.crf --depend motor\stm32f4xx_hal_dma_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -377,9 +378,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -391,9 +392,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_dma_ex.o --omf_browse motor\stm32f4xx_hal_dma_ex.crf --depend motor\stm32f4xx_hal_dma_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_dma.o --omf_browse motor\stm32f4xx_hal_dma.crf --depend motor\stm32f4xx_hal_dma.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -408,9 +409,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -422,9 +423,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_dma.o --omf_browse motor\stm32f4xx_hal_dma.crf --depend motor\stm32f4xx_hal_dma.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_pwr.o --omf_browse motor\stm32f4xx_hal_pwr.crf --depend motor\stm32f4xx_hal_pwr.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -439,9 +440,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -453,9 +454,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_pwr.o --omf_browse motor\stm32f4xx_hal_pwr.crf --depend motor\stm32f4xx_hal_pwr.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_pwr_ex.o --omf_browse motor\stm32f4xx_hal_pwr_ex.crf --depend motor\stm32f4xx_hal_pwr_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -470,9 +471,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -484,9 +485,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_pwr_ex.o --omf_browse motor\stm32f4xx_hal_pwr_ex.crf --depend motor\stm32f4xx_hal_pwr_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_cortex.o --omf_browse motor\stm32f4xx_hal_cortex.crf --depend motor\stm32f4xx_hal_cortex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -501,9 +502,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -515,9 +516,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_cortex.o --omf_browse motor\stm32f4xx_hal_cortex.crf --depend motor\stm32f4xx_hal_cortex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal.o --omf_browse motor\stm32f4xx_hal.crf --depend motor\stm32f4xx_hal.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -532,9 +533,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -546,9 +547,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal.o --omf_browse motor\stm32f4xx_hal.crf --depend motor\stm32f4xx_hal.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_exti.o --omf_browse motor\stm32f4xx_hal_exti.crf --depend motor\stm32f4xx_hal_exti.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -563,9 +564,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -577,9 +578,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_exti.o --omf_browse motor\stm32f4xx_hal_exti.crf --depend motor\stm32f4xx_hal_exti.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_uart.o --omf_browse motor\stm32f4xx_hal_uart.crf --depend motor\stm32f4xx_hal_uart.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
@@ -594,9 +595,9 @@ I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -608,38 +609,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x5F2F5602)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\stm32f4xx_hal_uart.o --omf_browse motor\stm32f4xx_hal_uart.crf --depend motor\stm32f4xx_hal_uart.d)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
-I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
-I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5F2F5601)
-I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5F2F5601)
-I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
-I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
-I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (../Src/system_stm32f4xx.c)(0x5F2F55FF)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\system_stm32f4xx.o --omf_browse motor\system_stm32f4xx.crf --depend motor\system_stm32f4xx.d)
+F (../Src/system_stm32f4xx.c)(0x5F2F55FF)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\system_stm32f4xx.o --omf_browse motor\system_stm32f4xx.crf --depend motor\system_stm32f4xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
@@ -650,15 +620,15 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -670,15 +640,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-F (C:/MATLAB/STM32-MAT/STM32/addSrc/src/getBuffPtr.c)(0x5E6BF08E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\getbuffptr.o --omf_browse motor\getbuffptr.crf --depend motor\getbuffptr.d)
+F (C:/MATLAB/STM32-MAT/STM32/addSrc/src/getBuffPtr.c)(0x5E6BF08E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\getbuffptr.o --omf_browse motor\getbuffptr.crf --depend motor\getbuffptr.d)
 I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor.c)(0x5F45AFD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor.o --omf_browse motor\motor.crf --depend motor\motor.d)
-I (../motor/Inc/motor.h)(0x5F45AFD2)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor.o --omf_browse motor\motor.crf --depend motor\motor.d)
+I (../motor/Inc/motor.h)(0x5F4F339E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
-I (../motor/Inc/motor_TIM.h)(0x5F45AFD2)
-I (../motor/Inc/STM32_Config.h)(0x5F45AFD2)
+I (../motor/Inc/motor_TIM.h)(0x5F4F339E)
+I (../motor/Inc/STM32_Config.h)(0x5F4F339E)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
@@ -689,15 +659,15 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -709,23 +679,24 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-I (../Inc/main.h)(0x5F45AFFF)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/motor_USART.h)(0x5F45AFD2)
-I (../motor/Inc/motor_External_Functions.h)(0x5F45AFD2)
+I (../Inc/main.h)(0x5F4F35A2)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/motor_USART.h)(0x5F4F339E)
+I (../motor/Inc/motor_External_Functions.h)(0x5F4F339E)
+I (../motor/Inc/motor_EXTI.h)(0x5F4F339E)
 I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
-I (../motor/Inc/motor_types.h)(0x5F45AFD2)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
-I (../motor/Inc/motor_private.h)(0x5F45AFD2)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_TIM.c)(0x5F468D8C)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor_tim.o --omf_browse motor\motor_tim.crf --depend motor\motor_tim.d)
-I (../motor/Inc/motor.h)(0x5F45AFD2)
+I (../motor/Inc/motor_types.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
+I (../motor/Inc/motor_private.h)(0x5F4F339E)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_EXTI.c)(0x5F4F35D0)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor_exti.o --omf_browse motor\motor_exti.crf --depend motor\motor_exti.d)
+I (../motor/Inc/motor.h)(0x5F4F339E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
-I (../motor/Inc/motor_TIM.h)(0x5F45AFD2)
-I (../motor/Inc/STM32_Config.h)(0x5F45AFD2)
+I (../motor/Inc/motor_TIM.h)(0x5F4F339E)
+I (../motor/Inc/STM32_Config.h)(0x5F4F339E)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
@@ -736,15 +707,15 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -756,22 +727,23 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-I (../Inc/main.h)(0x5F45AFFF)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/motor_USART.h)(0x5F45AFD2)
-I (../motor/Inc/motor_External_Functions.h)(0x5F45AFD2)
+I (../Inc/main.h)(0x5F4F35A2)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/motor_USART.h)(0x5F4F339E)
+I (../motor/Inc/motor_External_Functions.h)(0x5F4F339E)
+I (../motor/Inc/motor_EXTI.h)(0x5F4F339E)
 I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
-I (../motor/Inc/motor_types.h)(0x5F45AFD2)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_USART.c)(0x5F45AFD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor_usart.o --omf_browse motor\motor_usart.crf --depend motor\motor_usart.d)
-I (../motor/Inc/motor.h)(0x5F45AFD2)
+I (../motor/Inc/motor_types.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_TIM.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor_tim.o --omf_browse motor\motor_tim.crf --depend motor\motor_tim.d)
+I (../motor/Inc/motor.h)(0x5F4F339E)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
-I (../motor/Inc/motor_TIM.h)(0x5F45AFD2)
-I (../motor/Inc/STM32_Config.h)(0x5F45AFD2)
+I (../motor/Inc/motor_TIM.h)(0x5F4F339E)
+I (../motor/Inc/STM32_Config.h)(0x5F4F339E)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
@@ -782,15 +754,15 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
-I (../Inc/stm32f4xx_hal_conf.h)(0x5F45AFFF)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
-I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
@@ -802,29 +774,77 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
-I (../Inc/main.h)(0x5F45AFFF)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/motor_USART.h)(0x5F45AFD2)
-I (../motor/Inc/motor_External_Functions.h)(0x5F45AFD2)
+I (../Inc/main.h)(0x5F4F35A2)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/motor_USART.h)(0x5F4F339E)
+I (../motor/Inc/motor_External_Functions.h)(0x5F4F339E)
+I (../motor/Inc/motor_EXTI.h)(0x5F4F339E)
 I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
-I (../motor/Inc/motor_types.h)(0x5F45AFD2)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rtGetInf.c)(0x5F45AFD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rtgetinf.o --omf_browse motor\rtgetinf.crf --depend motor\rtgetinf.d)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
+I (../motor/Inc/motor_types.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_USART.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\motor_usart.o --omf_browse motor\motor_usart.crf --depend motor\motor_usart.d)
+I (../motor/Inc/motor.h)(0x5F4F339E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC81EC4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC81EC4)
+I (../motor/Inc/motor_TIM.h)(0x5F4F339E)
+I (../motor/Inc/STM32_Config.h)(0x5F4F339E)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5F2F55FF)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5F2F55FF)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5F2F5601)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5F2F5601)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5F2F5601)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5F2F5601)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5F2F5601)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5F2F55FF)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5F2F5602)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5F4F35A1)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5F2F5602)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rtGetNaN.c)(0x5F45AFD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rtgetnan.o --omf_browse motor\rtgetnan.crf --depend motor\rtgetnan.d)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5F2F5602)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5F2F5602)
+I (../Inc/main.h)(0x5F4F35A2)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/motor_USART.h)(0x5F4F339E)
+I (../motor/Inc/motor_External_Functions.h)(0x5F4F339E)
+I (../motor/Inc/motor_EXTI.h)(0x5F4F339E)
+I (../motor/Inc/getBuffPtr.h)(0x5E6BF08E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (../motor/Inc/motor_types.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rtGetInf.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rtgetinf.o --omf_browse motor\rtgetinf.crf --depend motor\rtgetinf.d)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
-F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rt_nonfinite.c)(0x5F45AFD2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rt_nonfinite.o --omf_browse motor\rt_nonfinite.crf --depend motor\rt_nonfinite.d)
-I (../motor/Inc/rt_nonfinite.h)(0x5F45AFD0)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rtGetNaN.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rtgetnan.o --omf_browse motor\rtgetnan.crf --depend motor\rtgetnan.d)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
-I (../motor/Inc/rtwtypes.h)(0x5F45AFD2)
-I (../motor/Inc/rtGetNaN.h)(0x5F45AFD0)
-I (../motor/Inc/rtGetInf.h)(0x5F45AFD0)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+F (C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/rt_nonfinite.c)(0x5F4F339E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Core/Include -I ../Drivers/CMSIS/DSP/Include -I ../motor/Inc -I "../../../../../../Program Files/MATLAB/R2020a/simulink/include" -I ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc-I.\RTE\_motor-IC:\Users\tuziz\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\tuziz\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F407xx -D_RTE_ -DMEM_UNIT_BYTES -DARM_MATH_CM4 -DMemUnit_T="uint8_T" -DMATLAB_PROJECT -DUSE_HAL_DRIVER -DSTM32F407xx-o motor\rt_nonfinite.o --omf_browse motor\rt_nonfinite.crf --depend motor\rt_nonfinite.d)
+I (../motor/Inc/rt_nonfinite.h)(0x5F4F339D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
+I (../motor/Inc/rtwtypes.h)(0x5F4F339E)
+I (../motor/Inc/rtGetNaN.h)(0x5F4F339D)
+I (../motor/Inc/rtGetInf.h)(0x5F4F339D)

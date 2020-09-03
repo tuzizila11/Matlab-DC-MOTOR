@@ -21,9 +21,9 @@ motor\motor_usart.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 motor\motor_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
 motor\motor_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
@@ -39,6 +39,7 @@ motor\motor_usart.o: ../Inc/main.h
 motor\motor_usart.o: ../motor/Inc/rtwtypes.h
 motor\motor_usart.o: ../motor/Inc/motor_USART.h
 motor\motor_usart.o: ../motor/Inc/motor_External_Functions.h
+motor\motor_usart.o: ../motor/Inc/motor_EXTI.h
 motor\motor_usart.o: ../motor/Inc/getBuffPtr.h
 motor\motor_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 motor\motor_usart.o: ../motor/Inc/motor_types.h

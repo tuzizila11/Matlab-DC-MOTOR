@@ -3,7 +3,7 @@
  * course requirements at degree granting institutions only.  Not for
  * government, commercial, or other organizational use.
  *
- * File: rtGetInf.h
+ * File: motor_EXTI.h
  *
  * Code generated for Simulink model :motor.
  *
@@ -35,20 +35,17 @@
  * ******************************************************************************
  */
 
-#ifndef RTW_HEADER_rtGetInf_h_
-#define RTW_HEADER_rtGetInf_h_
-#include <stddef.h>
-#include "rtwtypes.h"
-#include "rt_nonfinite.h"
+#ifndef RTW_HEADER_motor_EXTI_h_
+#define RTW_HEADER_motor_EXTI_h_
+#include "STM32_Config.h"
 
-extern real_T rtGetInf(void);
-extern real32_T rtGetInfF(void);
-extern real_T rtGetMinusInf(void);
-extern real32_T rtGetMinusInfF(void);
+/* Exti function pointer array declaration */
+extern void (*EXTI_Callback[16])(void);
+extern void EXTI0_Callback(void);
 
-#endif                                 /* RTW_HEADER_rtGetInf_h_ */
+#endif                                 /* RTW_HEADER_motor_EXTI_h_ */
 
 /* File trailer for Real-Time Workshop generated code.
  *
- * [EOF] rtGetInf.h
+ * [EOF] motor_EXTI.h
  */

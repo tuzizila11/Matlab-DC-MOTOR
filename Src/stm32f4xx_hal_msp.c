@@ -2,7 +2,7 @@
 /**
   ******************************************************************************
   * File Name          : stm32f4xx_hal_msp.c
-  * Description        : This file provides code for the MSP Initialization
+  * Description        : This file provides code for the MSP Initialization 
   *                      and de-Initialization codes.
   ******************************************************************************
   * @attention
@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN Define */
-
+ 
 /* USER CODE END Define */
 
 /* Private macro -------------------------------------------------------------*/
@@ -58,7 +58,7 @@
 /* USER CODE BEGIN 0 */
 
 /* USER CODE END 0 */
-
+                        
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
                     /**
   * Initializes the Global MSP.
@@ -97,10 +97,10 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
   /* USER CODE END TIM3_MspInit 0 */
     /* Peripheral clock enable */
     __HAL_RCC_TIM3_CLK_ENABLE();
-
+  
     __HAL_RCC_GPIOC_CLK_ENABLE();
-    /**TIM3 GPIO Configuration
-    PC6     ------> TIM3_CH1
+    /**TIM3 GPIO Configuration    
+    PC6     ------> TIM3_CH1 
     */
     GPIO_InitStruct.Pin = GPIO_PIN_6;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -163,10 +163,10 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* htim)
   /* USER CODE BEGIN TIM4_MspPostInit 0 */
 
   /* USER CODE END TIM4_MspPostInit 0 */
-
+  
     __HAL_RCC_GPIOD_CLK_ENABLE();
-    /**TIM4 GPIO Configuration
-    PD12     ------> TIM4_CH1
+    /**TIM4 GPIO Configuration    
+    PD12     ------> TIM4_CH1 
     */
     GPIO_InitStruct.Pin = GPIO_PIN_12;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -196,9 +196,9 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
   /* USER CODE END TIM3_MspDeInit 0 */
     /* Peripheral clock disable */
     __HAL_RCC_TIM3_CLK_DISABLE();
-
-    /**TIM3 GPIO Configuration
-    PC6     ------> TIM3_CH1
+  
+    /**TIM3 GPIO Configuration    
+    PC6     ------> TIM3_CH1 
     */
     HAL_GPIO_DeInit(GPIOC, GPIO_PIN_6);
 
@@ -263,11 +263,11 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
   /* USER CODE END USART3_MspInit 0 */
     /* Peripheral clock enable */
     __HAL_RCC_USART3_CLK_ENABLE();
-
+  
     __HAL_RCC_GPIOD_CLK_ENABLE();
-    /**USART3 GPIO Configuration
+    /**USART3 GPIO Configuration    
     PD8     ------> USART3_TX
-    PD9     ------> USART3_RX
+    PD9     ------> USART3_RX 
     */
     GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -276,9 +276,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
     GPIO_InitStruct.Alternate = GPIO_AF7_USART3;
     HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
-    /* USART3 interrupt Init */
-    HAL_NVIC_SetPriority(USART3_IRQn, 0, 0);
-    HAL_NVIC_EnableIRQ(USART3_IRQn);
   /* USER CODE BEGIN USART3_MspInit 1 */
 
   /* USER CODE END USART3_MspInit 1 */
@@ -301,15 +298,13 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* huart)
   /* USER CODE END USART3_MspDeInit 0 */
     /* Peripheral clock disable */
     __HAL_RCC_USART3_CLK_DISABLE();
-
-    /**USART3 GPIO Configuration
+  
+    /**USART3 GPIO Configuration    
     PD8     ------> USART3_TX
-    PD9     ------> USART3_RX
+    PD9     ------> USART3_RX 
     */
     HAL_GPIO_DeInit(GPIOD, GPIO_PIN_8|GPIO_PIN_9);
 
-    /* USART3 interrupt DeInit */
-    HAL_NVIC_DisableIRQ(USART3_IRQn);
   /* USER CODE BEGIN USART3_MspDeInit 1 */
 
   /* USER CODE END USART3_MspDeInit 1 */

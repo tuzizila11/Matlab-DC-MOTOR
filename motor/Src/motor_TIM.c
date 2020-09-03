@@ -7,10 +7,10 @@
  *
  * Code generated for Simulink model :motor.
  *
- * Model version      : 1.123
+ * Model version      : 1.127
  * Simulink Coder version    : 9.3 (R2020a) 18-Nov-2019
  * TLC version       : 9.3 (May 28 2020)
- * C/C++ source code generated on  : Tue Aug 25 20:41:46 2020
+ * C/C++ source code generated on  : Wed Sep  2 01:54:35 2020
  *
  * Target selection: stm32.tlc
  * Embedded hardware selection: STMicroelectronics->STM32 32-bit Cortex-M
@@ -207,6 +207,19 @@ void TIM_PeriodElapsedCustomCallback(TIM_HandleTypeDef *htim)
   }
 }
 
+/**
+ * @brief  Period elapsed callback in non blocking mode
+ * @param  htim TIM handle
+ * @retval None
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  extern void TIM_PeriodElapsedCustomCallback(TIM_HandleTypeDef *htim);
+
+  /* Handle this event from model side. */
+  TIM_PeriodElapsedCustomCallback(htim);
+}
+
 /*******************************************************************************
  * Function Name  : TIM3_ItUpFcn
  * Description    : TIM3 update interrupt
@@ -241,9 +254,9 @@ void TIM3_ItUpFcn()
 
     motor_B.Divide = ((1.0 / (motor_B.PRESCALER_TIM3 + 1.0)) * (2.0 *
       rtb_NProdOut)) / motor_B.PERIOD_TIM3;
-    motor_B.Add1 = 455.0 - motor_B.Divide;
-    rtb_NProdOut = ((motor_B.Add1 * 30.0) - motor_DW.Filter_DSTATE) * 100.0;
-    rtb_IProdOut = ((motor_B.Add1 * 2.0) + motor_DW.Integrator_DSTATE) +
+    motor_B.Add1 = motor_B.RateTransition5 - motor_B.Divide;
+    rtb_NProdOut = ((motor_B.Add1 * 0.5) - motor_DW.Filter_DSTATE) * 100.0;
+    rtb_IProdOut = ((motor_B.Add1 * 15.0) + motor_DW.Integrator_DSTATE) +
       rtb_NProdOut;
     if (rtb_IProdOut > 1000.0) {
       motor_B.Saturation = 1000.0;
@@ -290,7 +303,7 @@ void TIM3_ItUpFcn()
       rtb_ZeroGain = fmod(rtb_IProdOut, 256.0);
     }
 
-    rtb_IProdOut = motor_B.Add1 * 0.8;
+    rtb_IProdOut = motor_B.Add1 * 10.0;
     if (rtb_IProdOut < 0.0) {
       tmp = -1.0;
     } else if (rtb_IProdOut > 0.0) {
@@ -457,6 +470,8 @@ void TIM7_ItUpFcn()
         if (USART3_TxConf.txStatus != SERIAL_TX_ON) {
           motor_B.USART_Send = USART3_TxConf.nbSent;
         }
+
+        USART3_TxConf.txStatus = SERIAL_TX_OFF;
       }
     }
   }

@@ -7,10 +7,10 @@
  *
  * Code generated for Simulink model :motor.
  *
- * Model version      : 1.123
+ * Model version      : 1.127
  * Simulink Coder version    : 9.3 (R2020a) 18-Nov-2019
  * TLC version       : 9.3 (May 28 2020)
- * C/C++ source code generated on  : Tue Aug 25 20:41:46 2020
+ * C/C++ source code generated on  : Wed Sep  2 01:54:35 2020
  *
  * Target selection: stm32.tlc
  * Embedded hardware selection: STMicroelectronics->STM32 32-bit Cortex-M
@@ -38,6 +38,13 @@
 #include "motor.h"
 #include "motor_private.h"
 
+/* Named constants for Chart: '<S1>/Chart' */
+#define motor_IN_NO_ACTIVE_CHILD       ((uint8_T)0U)
+#define motor_IN_S1                    ((uint8_T)1U)
+#define motor_IN_S2                    ((uint8_T)2U)
+#define motor_IN_S3                    ((uint8_T)3U)
+#define motor_IN_S4                    ((uint8_T)4U)
+
 /* Block signals (default storage) */
 B_motor motor_B;
 
@@ -51,6 +58,27 @@ RT_MODEL_motor *const motor_M = &motor_M_;
 /* Model step function */
 void motor_step(void)
 {
+  switch (motor_DW.RateTransition5_write_buf) {
+   case 0:
+    motor_DW.RateTransition5_read_buf = 1;
+    break;
+
+   case 1:
+    motor_DW.RateTransition5_read_buf = 0;
+    break;
+
+   default:
+    motor_DW.RateTransition5_read_buf = motor_DW.RateTransition5_last_buf_wr;
+    break;
+  }
+
+  if (motor_DW.RateTransition5_read_buf != 0) {
+    motor_B.RateTransition5 = motor_DW.RateTransition5_Buffer1;
+  } else {
+    motor_B.RateTransition5 = motor_DW.RateTransition5_Buffer0;
+  }
+
+  motor_DW.RateTransition5_read_buf = -1;
   switch (motor_DW.RateTransition_read_buf) {
    case 0:
     motor_DW.RateTransition_write_buf = 1;
@@ -218,11 +246,11 @@ void motor_initialize(void)
       G_TIM_Count++;
 
       /* Store TIM information. */
-      TIM4_Conf.TIM_Prescaler = 8399;
+      TIM4_Conf.TIM_Prescaler = 1679;
       TIM4_Conf.TIM_APBClock = 84000000;
       TIM4_Conf.TIM_ARR = 100 - 1;
-      TIM4_Conf.TIM_Clock = 10000.0;
-      TIM4_Conf.TIM_Freq = 100.0;
+      TIM4_Conf.TIM_Clock = 50000.0;
+      TIM4_Conf.TIM_Freq = 500.0;
       TIM4_Conf.CH1_duty = 50.0;
       TIM4_Conf.CH2_duty = 0.0;
       TIM4_Conf.CH3_duty = 0.0;
@@ -325,10 +353,10 @@ void motor_initialize(void)
       G_TIM_Count++;
 
       /* Store TIM information. */
-      TIM7_Conf.TIM_Prescaler = 8399;
+      TIM7_Conf.TIM_Prescaler = 839;
       TIM7_Conf.TIM_APBClock = 84000000;
-      TIM7_Conf.TIM_ARR = 100 - 1;
-      TIM7_Conf.TIM_Clock = 10000.0;
+      TIM7_Conf.TIM_ARR = 1000 - 1;
+      TIM7_Conf.TIM_Clock = 100000.0;
       TIM7_Conf.TIM_Freq = 100.0;
       TIM7_Conf.CH1_duty = 0.0;
       TIM7_Conf.CH2_duty = 0.0;
@@ -358,7 +386,7 @@ void motor_initialize(void)
       __HAL_TIM_SET_PRESCALER(&htim7,TIM7_Conf.TIM_Prescaler);
 
       /* Autoreload: ARR. */
-      __HAL_TIM_SET_AUTORELOAD(&htim7,100 - 1);
+      __HAL_TIM_SET_AUTORELOAD(&htim7,1000 - 1);
 
       /* Update registers before start operation to come. */
       HAL_TIM_GenerateEvent(&htim7,TIM_EVENTSOURCE_UPDATE);
@@ -377,6 +405,11 @@ void motor_initialize(void)
 
     /* USART3 initialization for send. */
     USART3_Tx_Initialization();
+
+    {
+      /* External interrupt function registering. */
+      EXTI_Callback[0] = EXTI0_Callback;
+    }
 
     {
       /* TIM3 Start. */
@@ -401,6 +434,8 @@ void motor_initialize(void)
     }
   }
 
+  motor_DW.RateTransition5_write_buf = -1;
+  motor_DW.RateTransition5_read_buf = -1;
   motor_DW.RateTransition_write_buf = -1;
   motor_DW.RateTransition_read_buf = -1;
   motor_DW.RateTransition2_write_buf = -1;
@@ -409,6 +444,10 @@ void motor_initialize(void)
   motor_DW.RateTransition3_read_buf = -1;
   motor_DW.RateTransition4_write_buf = -1;
   motor_DW.RateTransition4_read_buf = -1;
+
+  /* System initialize for function-call system: '<Root>/Change Setpoint' */
+  motor_DW.is_active_c5_motor = 0U;
+  motor_DW.is_c5_motor = motor_IN_NO_ACTIVE_CHILD;
 
   /* System initialize for function-call system: '<Root>/PID Loop' */
   motor_DW.PIDLoop_PREV_T = motor_M->Timing.clockTick0;

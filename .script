@@ -1,3 +1,2 @@
+disable project generate true
 config load "C:\Users\tuziz\Desktop\STM Projects\Matlab DC MOTOR\motor.ioc"
-project generate ui
-exit wait

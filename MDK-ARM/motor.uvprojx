@@ -313,7 +313,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>3</Optim>
+            <Optim>4</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>MEM_UNIT_BYTES,ARM_MATH_CM4,MemUnit_T=uint8_T,MATLAB_PROJECT,USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;                                                                             ../Drivers/STM32F4xx_HAL_Driver/Inc;                                                                             ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;                                                                             ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;                                                                             ../Drivers/CMSIS/Include;                                                                             ../Drivers/CMSIS/Core/Include;                                                                             ../Drivers/CMSIS/DSP/Include;                                                                             ../motor/Inc;                                                                             "../../../../../../Program Files/MATLAB/R2020a/simulink/include";                                                                   ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc</IncludePath>
+              <IncludePath>../Inc;     ../Drivers/STM32F4xx_HAL_Driver/Inc;     ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;     ../Drivers/CMSIS/Device/ST/STM32F4xx/Include;     ../Drivers/CMSIS/Include;     ../Drivers/CMSIS/Core/Include;     ../Drivers/CMSIS/DSP/Include;     ../motor/Inc;     "../../../../../../Program Files/MATLAB/R2020a/simulink/include";     ../../../../../../MATLAB/STM32-MAT/STM32/addSrc/inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -407,11 +407,6 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Src/stm32f4xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_timebase_tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>../Src/stm32f4xx_hal_timebase_tim.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -522,6 +517,11 @@
               <FileName>motor.c</FileName>
               <FileType>1</FileType>
               <FilePath>C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor_EXTI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>C:/Users/tuziz/Desktop/STM Projects/Matlab DC MOTOR/motor/Src/motor_EXTI.c</FilePath>
             </File>
             <File>
               <FileName>motor_TIM.c</FileName>
